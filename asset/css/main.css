@@ -1,0 +1,85 @@
+.formSearch {
+  background-color: #ffff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.formSearch .formSearch__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+/* .formSearch .formSearch__header span {
+} */
+
+.formSearch .formSearch__form {
+  background-color: #e6e2e2;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.form-group__custom {
+  display: flex;
+  height: 25px;
+  margin-bottom: 3px;
+}
+.formInputCustom {
+  height: 25px;
+  border-radius: unset;
+}
+.formInputCustom:focus {
+  border: 1px solid #111;
+  padding: 0;
+}
+.formInputCustom33 {
+  width: 33%;
+}
+.formInputCustom10 {
+  width: 10%;
+}
+.formInputCustom15 {
+  width: 15%;
+}
+.formInputCustom20 {
+  width: 20%;
+}
+.formInputCustom40 {
+  width: 40%;
+}
+.formInputCustom50 {
+  width: 50%;
+}
+.formInputCustom55 {
+  width: 55%;
+}
+.formInputCustom30 {
+  width: 30%;
+}
+.formInputCustom70 {
+  width: 70%;
+}
+.arrow__icon {
+  border: 1px solid #b7b7b5;
+  width: 22px;
+  text-align: center;
+}
+
+.form-group__lable {
+  width: 80px;
+}
+.form-group__lable--custom {
+  margin: 0 10px;
+}
+.dateTo {
+  padding: 0 5px;
+}
+
+/* table style */
+.tableCustom {
+  background-color: #ffff;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
