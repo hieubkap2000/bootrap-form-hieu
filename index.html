@@ -6,132 +6,246 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css
     ">
     <link rel="stylesheet" href="./asset/css/main.css">
 </head>
 
-<body style="background-color: beige;">
-    <div class="container-fluid">
-        <div class="formSearch">
-            <div class="formSearch__header">
-                <span>XXXX</span>
-                <span><i class="fas fa-angle-double-up"></i></span>
-            </div>
-            <div class="formSearch__form">
-                <form>
-                    <div class="row">
-                        <div class="col-md-4 col-lg-4 col-sm-12">
-                            <div class="form-group form-group__custom">
-                                <label for="exampleInputEmail1" class="form-group__lable">XX</label>
-                                <input type="date" class="form-control formInputCustom formInputCustom33"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <span class="dateTo"> ~ </span>
-                                <input type="date" class="form-control formInputCustom formInputCustom33"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
+<body>
+    <div class="layout">
+        <div class="container-fluid">
+            <div class="card cardForm">
+                <div class="card-header">
+                    <span>XXXX</span>
+                    <button type="button" class="btn btn-link"><i class="fas fa-angle-double-up"></i></button>
+                </div>
+                <div class="card-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 col-sm-12">
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input1"
+                                        class=" col-2 col-form-label col-form-label__custom">XXXX</label>
+                                    <div class="col-4 formInputCustom">
+                                        <input type="date" class="form-control" id="input1">
+                                    </div>
+                                    <div class="col-1 formInputCustom text-center">
+                                        ~
+                                    </div>
+                                    <div class="col-4formInputCustom">
+                                        <input type="date" class="form-control" id="input2">
+                                    </div>
+                                </div>
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input3"
+                                        class=" col-md-2 col-lg-2 col-sm-2 col-form-label col-form-label__custom">XX</label>
+                                    <div class="col-md-2 col-lg-2 col-sm-2 formInputCustom">
+                                        <input type="text" class="form-control" id="input3">
+                                    </div>
+                                    <div class="col-md-1 col-lg-1 col-sm-1 formInputCustom">
+                                        <button type="button" class="buttonCustom"><i
+                                                class="fas fa-caret-down"></i></button>
+                                    </div>
+                                    <div class="col-5 formInputCustom">
+                                        <input type="text" class="form-control" id="input14" disabled>
+                                    </div>
+                                </div>
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input1" class=" col-2 col-form-label col-form-label__custom">XX</label>
+                                    <div class="col-2 formInputCustom">
+                                        <input type="text" class="form-control" id="input5">
+                                    </div>
+                                    <div class="col-1 formInputCustom">
+                                        <button type="button" class="buttonCustom"><i
+                                                class="fas fa-caret-down"></i></button>
+                                    </div>
+                                    <div class="col-5 formInputCustom">
+                                        <input type="text" class="form-control" id="input6" disabled>
+                                    </div>
+                                </div>
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input1" class=" col-2 col-form-label col-form-label__custom">XXX</label>
+                                    <div class="col-3 formInputCustom">
+                                        <input type="text" class="form-control" id="input7">
+                                    </div>
+                                    <div class="col-1 formInputCustom">
+                                        <button type="button" class="buttonCustom"><i
+                                                class="fas fa-caret-down"></i></button>
+                                    </div>
+                                    <div class="col-5 formInputCustom">
+                                        <input type="text" class="form-control" id="input8" disabled>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group form-group__custom">
-                                <label for="exampleInputEmail1" class="form-group__lable">XX</label>
-                                <input type="text" class="form-control formInputCustom formInputCustom15"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <span class="arrow__icon"><i class="fas fa-caret-down"></i></span>
-                                <input type="text" class="form-control formInputCustom formInputCustom40"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
-                            </div>
-                            <div class="form-group form-group__custom">
-                                <label for="exampleInputEmail1" class="form-group__lable">XX</label>
-                                <input type="text" class="form-control formInputCustom formInputCustom15"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <span class="arrow__icon"><i class="fas fa-caret-down"></i></span>
-                                <input type="text" class="form-control formInputCustom formInputCustom40"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
-                            </div>
-                            <div class="form-group form-group__custom">
-                                <label for="exampleInputEmail1" class="form-group__lable">XXX</label>
-                                <input type="text" class="form-control formInputCustom formInputCustom20"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <span class="arrow__icon"><i class="fas fa-caret-down"></i></span>
-                                <input type="text" class="form-control formInputCustom formInputCustom50"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-lg-4 col-sm-12">
-                            <div>
-                                <div class="form-group form-group__custom">
-                                    <label for="exampleInputEmail1" class="form-group__lable">XXXX</label>
-                                    <input type="text" class="form-control formInputCustom formInputCustom15"
-                                        id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    <span class="arrow__icon"><i class="fas fa-caret-down"></i></span>
-                                    <input type="text" class="form-control formInputCustom formInputCustom15"
-                                        id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
+                            <div class="col-md-4 col-lg-4 col-sm-12">
 
-                                    <label for="exampleInputEmail1" class="form-group__lable--custom">XXXX</label>
-                                    <input type="text" class="form-control formInputCustom formInputCustom10"
-                                        id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    <span class="arrow__icon"><i class="fas fa-caret-down"></i></span>
-                                    <input type="text" class="form-control formInputCustom formInputCustom15"
-                                        id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input1"
+                                        class=" col-2 col-form-label col-form-label__custom">XXXX</label>
+                                    <div class="col-2 formInputCustom">
+                                        <input type="text" class="form-control" id="input9">
+                                    </div>
+                                    <div class="col-1 formInputCustom">
+                                        <button type="button" class="buttonCustom"><i
+                                                class="fas fa-caret-down"></i></button>
+                                    </div>
+                                    <div class="col-2 formInputCustom">
+                                        <input type="text" class="form-control" id="input10" disabled>
+                                    </div>
+                                    <label for="input1"
+                                        class=" col-2 col-form-label col-form-label__custom">XXXX</label>
+                                    <div class="col-1 formInputCustom">
+                                        <input type="text" class="form-control" id="input11">
+                                    </div>
+                                    <div class="col-1 formInputCustom">
+                                        <button type="button" class="buttonCustom"><i
+                                                class="fas fa-caret-down"></i></button>
+                                    </div>
+                                    <div class="col-1 formInputCustom">
+                                        <input type="text" class="form-control" id="input12" disabled>
+                                    </div>
+                                </div>
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input1"
+                                        class=" col-2 col-form-label col-form-label__custom">XXXX</label>
+                                    <div class="col-2 formInputCustom">
+                                        <input type="text" class="form-control" id="input13">
+                                    </div>
+                                    <div class="col-1 formInputCustom">
+                                        <button type="button" class="buttonCustom"><i
+                                                class="fas fa-caret-down"></i></button>
+                                    </div>
+                                    <div class="col-6 formInputCustom">
+                                        <input type="text" class="form-control" id="input14" disabled>
+                                    </div>
+                                </div>
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input1" class=" col-2 col-form-label col-form-label__custom">XX</label>
+                                    <div class="col-2 formInputCustom">
+                                        <input type="text" class="form-control" id="input15">
+                                    </div>
+                                    <div class="col-1 formInputCustom">
+                                        <button type="button" class="buttonCustom"><i
+                                                class="fas fa-caret-down"></i></button>
+                                    </div>
+                                    <div class="col-6 formInputCustom">
+                                        <input type="text" class="form-control" id="input16" disabled>
+                                    </div>
+                                </div>
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input17"
+                                        class=" col-2 col-form-label col-form-label__custom">XXXX</label>
+                                    <div class="col-4 formInputCustom">
+                                        <input type="text" class="form-control" id="input17">
+                                    </div>
+                                    <label for="input18"
+                                        class=" col-2 col-form-label col-form-label__custom">XXXXXX</label>
+
+                                    <div class="col-4 formInputCustom">
+                                        <input type="text" class="form-control" id="input18">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="form-group form-group__custom">
-                                <label for="exampleInputEmail1" class="form-group__lable">XXXX</label>
-                                <input type="text" class="form-control formInputCustom formInputCustom15"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <span class="arrow__icon"><i class="fas fa-caret-down"></i></span>
-                                <input type="text" class="form-control formInputCustom formInputCustom55"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
-                            </div>
-                            <div class="form-group form-group__custom">
-                                <label for="exampleInputEmail1" class="form-group__lable">XX</label>
-                                <input type="text" class="form-control formInputCustom formInputCustom15"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <span class="arrow__icon"><i class="fas fa-caret-down"></i></span>
-                                <input type="text" class="form-control formInputCustom formInputCustom55"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
-                            </div>
-                            <div>
-                                <div class="form-group form-group__custom">
-                                    <label for="exampleInputEmail1" class="form-group__lable">XXXX</label>
-                                    <input type="text" class="form-control formInputCustom formInputCustom30"
-                                        id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    <label for="exampleInputEmail1" class="form-group__lable--custom">XXXXXX</label>
-                                    <input type="text" class="form-control formInputCustom formInputCustom30"
-                                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div class="col-md-4 col-lg-4 col-sm-12">
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input19"
+                                        class=" col-2 col-form-label col-form-label__custom">XXXXXX</label>
+                                    <div class="col-6 formInputCustom">
+                                        <input type="text" class="form-control" id="input19">
+                                    </div>
+                                </div>
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input20"
+                                        class=" col-2 col-form-label col-form-label__custom">XXXXX</label>
+                                    <div class="col-6 formInputCustom">
+                                        <input type="text" class="form-control" id="input20">
+                                    </div>
+                                </div>
+                                <div class="form-group row formGroupCustom">
+                                    <label for="input21"
+                                        class=" col-2 col-form-label col-form-label__custom">XXXXXX</label>
+                                    <div class="col-2 formInputCustom">
+                                        <input type="text" class="form-control" id="input21">
+                                    </div>
+                                    <div class="col-1 formInputCustom">
+                                        <button type="button" class="buttonCustom"><i
+                                                class="fas fa-caret-down"></i></button>
+                                    </div>
+                                    <div class="col-5 formInputCustom">
+                                        <input type="text" class="form-control" id="input22" disabled>
+                                    </div>
                                 </div>
                             </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="card cardTable">
+            <div class="card-header">
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <div class="row">
+                        <div class="col-2">XX</div>
+                        <div class="col-2 text-center">XXXX</div>
+                        <div class="col-2 formInputCustom">
+                            <input type="text" class="form-control" id="input22" disabled>
                         </div>
-                        <div class="col-md-4 col-lg-4 col-sm-12">
-                            <div class="form-group form-group__custom">
-                                <label for="exampleInputEmail1" class="form-group__lable">XXXXXX</label>
-                                <input type="text" class="form-control formInputCustom formInputCustom55"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group form-group__custom">
-                                <label for="exampleInputEmail1" class="form-group__lable">XXXXX</label>
-                                <input type="text" class="form-control formInputCustom formInputCustom55"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group form-group__custom">
-                                <label for="exampleInputEmail1" class="form-group__lable">XXXXXX</label>
-                                <input type="text" class="form-control formInputCustom formInputCustom15"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <span class="arrow__icon"><i class="fas fa-caret-down"></i></span>
-                                <input type="text" class="form-control formInputCustom formInputCustom40"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp" disabled>
+                        <div class="col-3 text-center">XXXXXXX</div>
+                        <div class="col-3">
+                            <div class="form-group">
+                                <select class="form-control" id="exampleFormControlSelect2">
+                                    <option>10X</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <th>No</th>
+                            <th>XXXX</th>
+                            <th>XXXXXXX</th>
+                            <th>XXXXXX</th>
+                            <th>XXXXXX</th>
+                            <th>XXXXX</th>
+                            <th>XXXX</th>
+                            <th>XXXXX</th>
+                            <th>XXXX</th>
+                            <th>XXXXX</th>
+                            <th>XXXX</th>
+                            <th>XXXXXX</th>
+                            <th>XXXX</th>
+                            <th>XXXX</th>
+                            <th>XXXXXX</th>
+                            <th>XX</th>
+                            <th>XXXXXX</th>
+                            <th>XXXXX</th>
+                        </thead>
+                    </table>
+                </div>
             </div>
         </div>
-        <div class="tableCustom">
-           
-        </div>
     </div>
-
     </div>
-    <script src="./asset/js/bootstrap.min.js"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="./asset/js/main.js"></script>
 </body>
 
