@@ -28,6 +28,13 @@ body {
 .formInputCustom {
   padding: 0;
 }
+.formInputCustom input {
+  height: 30px;
+  border-radius: 1px;
+}
+.formInputCustom button {
+  width: 100%;
+}
 .buttonCustom {
   width: 100%;
   height: 100%;
@@ -35,7 +42,10 @@ body {
 .formGroupCustom {
   margin-bottom: 7px;
 }
-
+/* .col-form-label__custom {
+  padding-left: 0;
+  padding-bottom: 0;
+} */
 /* table style */
 .cardTable {
   top: 20px;
